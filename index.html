@@ -1,0 +1,205 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Raheem K K</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }header {
+  background: #0d1b2a; /* dark navy */
+  color: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+section {
+  padding: 2rem 1.5rem;
+  max-width: 960px;
+  margin: auto;
+}
+
+h2 {
+  color: #0d1b2a;
+  border-left: 6px solid #468faf;
+  padding-left: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+.slider {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slider::-webkit-scrollbar {
+  height: 6px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+  background: #468faf;
+  border-radius: 5px;
+}
+
+.slider > div {
+  scroll-snap-align: start;
+  min-width: 300px;
+  background: #e0ecf4;
+  border-left: 5px solid #468faf;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+footer {
+  background: #0d1b2a;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.contact a {
+  color: #fff;
+  margin: 0 0.6rem;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.tag {
+  background: #468faf;
+  color: #fff;
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  margin: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.lang-level {
+  font-weight: bold;
+  color: #35628d;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Muhammad Raheem K K</h1>
+    <p>Creative Writer | Multilingual | Islamic Researcher | Martial Artist</p>
+  </header>  <section>
+    <h2>About</h2>
+    <p>
+      Muhammad Raheem K K is a passionate creative writer, multilingual communicator, and a dedicated Islamic researcher with a strong background in martial arts. He strives to educate, inspire, and connect with people through knowledge, language, and physical discipline.
+    </p>
+  </section>  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>BCom</strong> – University of Calicut</li>
+      <li><strong>Masters in Islamic Science & Theology</strong> – Ma'din Academy</li>
+    </ul>
+  </section>  <section>
+    <h2>Languages Spoken</h2>
+    <ul>
+      <li>English – <span class="lang-level">Fluent</span></li>
+      <li>Spanish – <span class="lang-level">Advanced</span></li>
+      <li>Turkish – <span class="lang-level">Intermediate</span></li>
+      <li>Arabic – <span class="lang-level">Intermediate</span></li>
+      <li>Malayalam – <span class="lang-level">Native</span></li>
+    </ul>
+  </section>  <section>
+    <h2>Passionate About</h2>
+    <div>
+      <span class="tag">Reading</span>
+      <span class="tag">Creative Writing</span>
+      <span class="tag">Teaching</span>
+      <span class="tag">Motivating</span>
+      <span class="tag">Travelling</span>
+      <span class="tag">Exploring Cultures</span>
+      <span class="tag">Islamic Research</span>
+      <span class="tag">Calisthenics</span>
+      <span class="tag">Martial Arts</span>
+    </div>
+  </section>  <section>
+    <h2>Blog</h2>
+    <div class="slider">
+      <div>
+        <h3>Faith & Flow</h3>
+        <p>Balancing body, mind, and soul through practice and reflection.</p>
+      </div>
+      <div>
+        <h3>The Power of Multilingualism</h3>
+        <p>How learning languages opens doors to deeper understanding and empathy.</p>
+      </div>
+    </div>
+  </section>  <section>
+    <h2>Portfolio</h2>
+    <div class="slider">
+      <div>
+        <h3>Islamic Papers</h3>
+        <p>Research and analysis on classical and contemporary Islamic issues.</p>
+      </div>
+      <div>
+        <h3>Workshops & Events</h3>
+        <p>Seminars on motivation, youth mentoring, and discipline through martial arts.</p>
+      </div>
+    </div>
+  </section>  <section>
+    <h2>Testimonials</h2>
+    <div class="slider">
+      <div>
+        <p>“His words inspire and awaken — truly a mentor of rare depth.”</p>
+        <strong>– A Former Student</strong>
+      </div>
+      <div>
+        <p>“A perfect fusion of scholarship and soul. Raheem's energy is contagious.”</p>
+        <strong>– Academic Peer</strong>
+      </div>
+    </div>
+  </section>  <footer>
+    <h3>Contact</h3>
+    <div class="contact">
+      <a href="mailto:raheemrazaan@gmail.com">Email</a>
+      <a href="https://wa.me/919745736948">WhatsApp</a>
+      <a href="https://www.instagram.com/el_irshadi">Instagram</a>
+      <a href="https://www.facebook.com/raheem.razaan">Facebook</a>
+    </div>
+    <p>&copy; 2025 Muhammad Raheem K K</p>
+  </footer>  <script>
+    // Optional: Smooth scroll for sliders
+    document.querySelectorAll('.slider').forEach(slider => {
+      slider.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        slider.scrollBy({
+          left: e.deltaY < 0 ? -200 : 200,
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script></body>
+</html>
